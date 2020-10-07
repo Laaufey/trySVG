@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+#bridge {
+  display: block;
+  margin: 0 auto;
+  background-image: url("Tux-01.svg");
+
+  background-size: cover;
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  cursor: crosshair;
+  cursor: url("paw-tail-1.png") 55 55, crosshair;
+}
+#bridgeContainer {
+  text-align: center;
+  font-family: Avenir, sans-serif;
+}
+#bridgeContainer figcaption {
+  margin-top: 2rem;
+}
